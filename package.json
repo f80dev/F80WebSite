@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --aot --output-hashing=none --source-map=false --optimization=true --configuration production && gh-pages -d ./dist --repo https://github.com/f80dev/f80.git -f -t true -b gh-pages -m \"update from gh-pages\""
+    "deploy": "ng build --aot --output-hashing=none --source-map=false --optimization=true --configuration production && gh-pages -d ./dist/browser --repo https://github.com/f80dev/F80WebSite.git -f -t true -b gh-pages -m \"update from gh-pages\""
   },
   "private": true,
   "dependencies": {
